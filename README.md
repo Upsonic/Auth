@@ -2,7 +2,7 @@
 
 The cloud authentication save system for your python applications ! Control everything from one place and distribute all clients without effort.
 
-[Website](https://upsonic.co/upsonic-auth) | [Discord](https://discord.gg/) | [Twitter](https://twitter.com/upsonic)
+[Website](https://upsonic.co/upsonic-auth) | [Discord](https://discord.gg/) | [Twitter](https://twitter.com/upsonicco)
 
 
 
