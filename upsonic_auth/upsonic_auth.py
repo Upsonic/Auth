@@ -15,10 +15,10 @@ class Upsonic_Auth_Controller:
         return self.connection.get(name, encrypted_key=self.encrypted_key) == HASHES.get_hash(password)
 
 def Upsonic_Auth(encryption_key, database_name):
-    return Upsonic_Auth_Controller(encryption_key, database_name, "http://free.cloud.upsonic.co:5000", "onuratakan")
+    return Upsonic_Auth_Controller(encryption_key, database_name, "https://cloud_1.upsonic.co", "onuratakan")
 
 def Upsonic_Auth_Pro(encryption_key, database_name, access_key):
-    return Upsonic_Auth_Controller(encryption_key, database_name, "http://free.cloud.upsonic.co:5001", access_key)
+    return Upsonic_Auth_Controller(encryption_key, database_name, "https://cloud_2.upsonic.co/, access_key)
 
 def Upsonic_Auth_Dedicated(encryption_key, database_name, password, dedicated_key):
     dedicated_key = dedicated_key.replace("dedicatedkey-", "")
